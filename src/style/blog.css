@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.header_seccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: silver 1px 1px 1px;
+  height: 300px;
+}
+
+main div h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/nutritionist-website.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
+}
+
+.contenedor-img{
+
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+   /*Corregir alineacion del texto en cuanto a la imagen*/
+
+}
+.contenedor-fondo {
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+hr {
+  margin: 1rem 0;
+  color: #ff6207;
+  background-color: currentColor;
+  border: 0;
+  opacity: inherit;
+  
+}
+
+.bg-light {
+  background-color: rgb(250, 239, 90) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+  }
+
+.table {
+  border: 1px;
+  
+}
+.title-table {
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-cells {
+  text-align: justify;
+  width: 50%;
+}
+.display-4 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+   * Blog posts
+   */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+.bg-dark {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/carrousel-2.jpg");
+  background-position: auto;
+  background-size: cover;
+  background-attachment: fixed
+
+}
+h1{
+  text-shadow: black 10px 10px 10px;
+  text-align: center;
+}
+
+
+

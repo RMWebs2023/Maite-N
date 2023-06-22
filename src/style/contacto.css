@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+main div h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  letter-spacing: 10px;
+  /*tamaño letra header*/
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/nutritionist-website.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header_seccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: silver 1px 1px 1px;
+  height: 250px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 90px;
+  letter-spacing: 10px;
+}
+
+/* Formulario y contactos */
+
+.gridContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.formulario {
+  display: grid;
+  margin: 40px 0px 40px 0px;
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  justify-self: center;
+}
+fieldset {
+  border: dotted 2px;
+  color: #19881f;
+  padding: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+legend {
+  text-align: center;
+}
+.contactos {
+  display: grid;
+  margin: 40px 0px 40px 0px;
+  width: 70%;
+  justify-self: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.contenedorContactos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 20px 5px 20px 5px;
+  align-items: center;
+  justify-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Style de los iconos de contactos */
+
+.fa-map-marker-alt {
+  color: #19881f;
+  font-size: 20px;
+}
+.fa-mobile-alt {
+  color: #19881f;
+  font-size: 20px;
+}
+.fa-envelope {
+  color: #19881f;
+  font-size: 20px;
+}
+
+/* Textp de contactos */
+
+.Texto {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  padding-left: 5px;
+}
+span p {
+  color: black;
+  font-size: 20px;
+}
+
+/*Redes Sociales*/
+
+.RedesSociales {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 15px;
+}
+
+.Whatsapp {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background-color: #25d366;
+}
+.Instagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+.Facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #4267b2;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background-color: #fff;
+}

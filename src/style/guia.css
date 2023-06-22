@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/card-green.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.guia-bienvenida {
+  display: grid;
+  color: white;
+  justify-items: center;
+  align-content: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  margin: 20px 30px 20px 30px;
+  padding: 20px 0px 20px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  height: 500px;
+}

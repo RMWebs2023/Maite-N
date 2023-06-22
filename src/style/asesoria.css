@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/IMG_6958.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main div h1 {
+  font-size: 55px;
+}
+
+.header_seccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: silver 1px 1px 1px;
+  height: 250px;
+}
+
+.letra-header {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+
+.Asesoria-bienvenida {
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  margin: 0px 30px 20px 30px;
+  padding: 20px 0px 20px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.row {
+  width: 100%;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.card-body {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(90, 90, 90);
+  background-color: rgb(202, 247, 150, 0.5);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.col {
+  margin: 15px 0px;
+}
+
+hr {
+  height: 1px;
+  background-color: white;
+  position: center;
+}
+
+@media only screen and (max-device-width: 768px) {
+  main div h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .header_seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: silver 1px 1px 1px;
+    height: 350px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .Asesoria-bienvenida {
+    padding: 10px 10px;
+  }
+
+  .col {
+    margin: 15px 0px;
+  }
+
+  .footer-dark,
+  .item {
+    padding: 20px 0px;
+  }
+}
